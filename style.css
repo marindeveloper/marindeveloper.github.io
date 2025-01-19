@@ -17,35 +17,36 @@ body {
   padding-top: 0px;
   cursor: pointer;
   color: #ffffff;
+  
 }
 
 h2 {
-    position: relative;
+    position: flex;
     font-size: 2.4vh;
-    margin: 0 0 1.5vh 0vh;
     color: white;
     font-weight: normal;
     pointer-events: auto;
 }
 
 p {
-    position: relative;
+    position: flex;
     font-size: 1.9vh;
     margin: 0;
     color: gray;
     line-height: 2.5vh;
     pointer-events: auto;
 }
+
 .wrapper {
   display: flex;
   align-items: left;
   justify-content: left;
   
-  margin: 10vh 0 1.5vh 33vh;
+  margin: 8% 0 1% 15%;
 }
 
 .wrapper .dynamic-txts {
-  margin-left: 15px;
+  margin-left: 0;
   height: 50px;
   line-height: 50px;
   overflow: hidden;
@@ -59,6 +60,24 @@ p {
   position: relative;
   top: 0;
   animation: slide 12s steps(4) infinite; 
+}
+
+.about {  
+  width: 35%;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  margin-top: 8.8%;
+  pointer-events: none;
+}
+
+.experience {  
+  width: 35%;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  margin-top: 23.8%;
+  pointer-events: none;
 }
 
 @keyframes slide {
