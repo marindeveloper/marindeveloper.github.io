@@ -1,178 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marin - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body onload="init()">
+    
+    <div class="wrapper">
+            <ul class="dynamic-txts">
+                <li><span>Hi, I'm Marin.</span></li>
+                <li><span>Hallo, ich bin Marin.</span></li>
+                <li><span>Ciao, sono Marin.</span></li>
+                <li><span>嗨，我是马林.</span></li>
+            </ul>
+    </div>
+    <h2 style="
+    margin: 0% 0 1% 15.3%;">Aspiring Software Developer</h2>
+    <p style="
+    margin: 0% 0 1% 15.3%;">I like programming, photography <br> and a lot of other random shit lol.</p>
+    <script src="index.js"></script>
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: flex-start;
-  min-height: 100vh;
-  background: rgb(26, 26, 26);
-  padding-top: 0px;
-  cursor: pointer;
-  color: #ffffff;
-  
-}
 
-h2 {
-    position: flex;
-    font-size: 2.4vh;
-    color: white;
-    font-weight: normal;
-    pointer-events: auto;
-}
+    <div class="about">
+        <h2 style="
+    margin: 0% 0% 1% 0%; ">About me</h2>
+        <p style="
+    margin: 0% 0 1% 0%;">I've been programming for about 3 years now. I started programming because of Discord, more specifically the people I met on there
+     who introduced me to programming. Initially started by making a shit Discord bot with Node.JS, then went to Java and back end devlopment, and lastly
+     learned some web development.
+     </p> <br/> <p>
+     As for photography, it's a nice hobby and I enjoy doing some photography from time to time,
+      especially when visiting new places. I also like gaming and mostly play
+    competitive games, but I also like story and cozy games.</p>
+    </div>
 
-p {
-    position: flex;
-    font-size: 1.9vh;
-    margin: 0;
-    color: gray;
-    line-height: 2.5vh;
-    pointer-events: auto;
-}
+    <div class="experience">
+        <h2 style="
+    margin: 0% 0 1% 0%;">Experience</h2>
+        <p >As for proffessional experience/actually having had a job, well I have none.
+            I've been programming for about 3 years now and have learned some back end and front end development. 
+            Over time, I've become decent at the main programming languages I've used like Java, MySQL, HTML and CSS.
+            But I'm still trying to learn more and so currently I'm trying to learn JavaScript.
+        </p>
+    </div>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marin - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body onload="init()">
+    
+    <div class="wrapper">
+            <ul class="dynamic-txts">
+                <li><span>Hi, I'm Marin.</span></li>
+                <li><span>Hallo, ich bin Marin.</span></li>
+                <li><span>Ciao, sono Marin.</span></li>
+                <li><span>嗨，我是马林.</span></li>
+            </ul>
+    </div>
+    <h2 style="
+    margin: 0% 0 1% 15.3%;">Aspiring Software Developer</h2>
+    <p style="
+    margin: 0% 0 1% 15.3%;">I like programming, photography <br> and a lot of other random shit lol.</p>
+    <script src="index.js"></script>
 
-.wrapper {
-  display: flex;
-  align-items: left;
-  justify-content: left;
-  
-  margin: 8% 0 1% 15%;
-}
 
-.wrapper .dynamic-txts {
-  margin-left: 0;
-  height: 50px;
-  line-height: 50px;
-  overflow: hidden;
-}
+    <div class="about">
+        <h2 style="
+    margin: 0% 0% 1% 0%; ">About me</h2>
+        <p style="
+    margin: 0% 0 1% 0%;">I've been programming for about 3 years now. I started programming because of Discord, more specifically the people I met on there
+     who introduced me to programming. Initially started by making a shit Discord bot with Node.JS, then went to Java and back end devlopment, and lastly
+     learned some web development.
+     </p> <br/> <p>
+     As for photography, it's a nice hobby and I enjoy doing some photography from time to time,
+      especially when visiting new places. I also like gaming and mostly play
+    competitive games, but I also like story and cozy games.</p>
+    </div>
 
-.dynamic-txts li {
-  list-style: none;
-  color: #ffffff;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  top: 0;
-  animation: slide 12s steps(4) infinite; 
-}
-
-.about {  
-  width: 35%;
-  height: 100%;
-  left: 50%;
-  position: absolute;
-  margin-top: 8.8%;
-  pointer-events: none;
-}
-
-.experience {  
-  width: 35%;
-  height: 100%;
-  left: 50%;
-  position: absolute;
-  margin-top: 23.8%;
-  pointer-events: none;
-}
-
-@keyframes slide {
-  100% {
-    top: -200px;
-  }
-}
-
-.dynamic-txts li span {
-  position: relative;
-  margin: 5px 5px;
-  line-height: 50px;
-}
-
-.dynamic-txts li span::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgb(26, 26, 26);
-  border-left: 2px solid #ffffff;
-  animation: typing 3s steps(13) infinite;
-}
-
-@keyframes typing {
-    10% {
-        border-left: 2px solid #ffffff00;
-    }
-    20% {
-        border-left: 2px solid #ffffff;
-    }
-    30% {
-        border-left: 2px solid #ffffff00;
-    }
-    40%, 60% {
-        left: calc(100% + 0px);
-        
-        border-left: 2px solid #ffffff;
-    }
-    50% {
-        border-left: 2px solid #ffffff00;
-    }
-    60% {
-        border-left: 2px solid #ffffff;
-    }
-    70% {
-        border-left: 2px solid #ffffff00;
-    }
-    80% {
-        border-left: 2px solid #ffffff;
-    }
-    90% {
-        border-left: 2px solid #ffffff00;
-    }
-    100% {
-        left: 0px;
-        border-left: 2px solid #ffffff;
-  }
-}
-
-@keyframes cursor {
-}
-
-body {
-  cursor: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/svgs/solid/mouse-pointer.svg') 16 16, auto;
-}
-
-@media only screen and (max-width: 768px) {
-    .wrapper {
-        margin: 8% 0 1% 5%;
-    }
-
-    .dynamic-txts li {
-        font-size: 25px;
-    }
-
-    h2 {
-        font-size: 2vh; 
-        margin: 0% 0 1% 5%; 
-    }
-
-    p {
-        font-size: 1.7vh; 
-        margin: 0% 0 1% 5%; 
-    }
-
-    .about, .experience {
-        width: 90%;
-        left: 5%;
-        margin-top: 15%;
-        position: relative;
-    }
-
-    .experience {
-        margin-top: 5%;
-    }
-}
+    <div class="experience">
+        <h2 style="
+    margin: 0% 0 1% 0%;">Experience</h2>
+        <p >As for proffessional experience/actually having had a job, well I have none.
+            I've been programming for about 3 years now and have learned some back end and front end development. 
+            Over time, I've become decent at the main programming languages I've used like Java, MySQL, HTML and CSS.
+            But I'm still trying to learn more and so currently I'm trying to learn JavaScript.
+        </p>
+    </div>
+    
+</body>
+</html>
