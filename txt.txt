@@ -5,8 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
-
+  }
+  
 body {
   display: flex;
   flex-direction: column;
@@ -17,6 +17,7 @@ body {
   padding-top: 0px;
   cursor: pointer;
   color: #ffffff;
+  
 }
 
 h2 {
@@ -40,6 +41,7 @@ p {
   display: flex;
   align-items: left;
   justify-content: left;
+  
   margin: 8% 0 1% 15%;
 }
 
@@ -57,10 +59,10 @@ p {
   font-weight: 600;
   position: relative;
   top: 0;
-  animation: slide 12s steps(4) infinite;
+  animation: slide 12s steps(4) infinite; 
 }
 
-.about {
+.about {  
   width: 35%;
   height: 100%;
   left: 50%;
@@ -69,7 +71,7 @@ p {
   pointer-events: none;
 }
 
-.experience {
+.experience {  
   width: 35%;
   height: 100%;
   left: 50%;
@@ -113,6 +115,7 @@ p {
     }
     40%, 60% {
         left: calc(100% + 0px);
+        
         border-left: 2px solid #ffffff;
     }
     50% {
@@ -136,37 +139,40 @@ p {
   }
 }
 
+@keyframes cursor {
+}
+
 body {
   cursor: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/svgs/solid/mouse-pointer.svg') 16 16, auto;
 }
 
 @media only screen and (max-width: 768px) {
-  .wrapper {
-    margin: 8% 0 1% 5%;
-  }
+    .wrapper {
+        margin: 8% 0 1% 5%;
+    }
 
-  .dynamic-txts li {
-    font-size: 25px;
-  }
+    .dynamic-txts li {
+        font-size: 25px;
+    }
 
-  h2 {
-    font-size: 2vh;
-    margin: 0% 0 1% 5%;
-  }
+    h2 {
+        font-size: 2vh; 
+        margin: 0% 0 1% 5%; 
+    }
 
-  p {
-    font-size: 1.7vh;
-    margin: 0% 0 1% 5%;
-  }
+    p {
+        font-size: 1.7vh; 
+        margin: 0% 0 1% 5%; 
+    }
 
-  .about, .experience {
-    width: 90%;
-    left: 5%;
-    margin-top: 15%;
-    position: relative;
-  }
+    .about, .experience {
+        width: 90%;
+        left: 5%;
+        margin-top: 15%;
+        position: relative;
+    }
 
-  .experience {
-    margin-top: 5%;
-  }
+    .experience {
+        margin-top: 5%;
+    }
 }
