@@ -120,7 +120,7 @@ p {
 .project-title {
   background-color: transparent;
   color: #fff;
-  padding: 0px;
+  padding: 0;
   border: none;
   text-align: left;
   cursor: pointer;
@@ -129,24 +129,25 @@ p {
   font-size: 1rem;
   text-decoration: none;
   position: relative;
-  display: inline-block; 
+  display: inline-block;
   width: auto;
 }
 
 .project-title::after {
   content: '';
   position: absolute;
+  left: 0;
+  bottom: -1px;
   width: 0;
   height: 1px;
-  bottom: -1px;
-  left: 0;
-  background-color: gray;
+  background-color: #fff;
   transition: width 0.3s ease;
 }
 
 .project-title:hover::after {
   width: 100%;
 }
+
 
 .project-details {
     padding: 0 10px;
