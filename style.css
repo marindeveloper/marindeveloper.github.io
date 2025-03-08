@@ -140,7 +140,7 @@ p {
   bottom: -1px;
   width: 0;
   height: 1px;
-  background-color: #fff;
+  background-color: gray;
   transition: width 0.3s ease;
 }
 
