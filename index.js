@@ -81,14 +81,7 @@ function SmoothScroll(target, speed, smooth) {
 		);
 	}()
 
-function toggleDetails(element) {
-	var projectDetails = element.nextElementSibling; // Get the next element (project details)
-	if (projectDetails.style.maxHeight){
-	  projectDetails.style.maxHeight = null;
-	} else {
-	  projectDetails.style.maxHeight = projectDetails.scrollHeight + "px";
-	}
-  }
+
   
 }
 
