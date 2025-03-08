@@ -5,143 +5,109 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-  }
-  
+}
+
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: flex-start;
-  min-height: 100vh;
-  background: rgb(26, 26, 26);
-  padding-top: 0px;
-  cursor: pointer;
-  color: #ffffff;
-  
-}
-
-h2 {
-    position: flex;
-    font-size: 2.4vh;
-    color: white;
-    font-weight: normal;
-    pointer-events: auto;
-}
-
-p {
-    position: flex;
-    font-size: 1.9vh;
-    margin: 0;
-    color: gray;
-    line-height: 2.5vh;
-    pointer-events: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background: rgb(26, 26, 26);
+    color: #ffffff;
+    padding: 40px 20px;
 }
 
 .wrapper {
-  display: flex;
-  align-items: left;
-  justify-content: left;
-  
-  margin: 8% 0 1% 15%;
+    text-align: left;
+    margin-bottom: 10px;
 }
 
-.wrapper .dynamic-txts {
-  margin-left: 0;
-  height: 50px;
-  line-height: 50px;
-  overflow: hidden;
+.dynamic-txts {
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ffffff;
 }
 
 .dynamic-txts li {
-  list-style: none;
-  color: #ffffff;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  top: 0;
-  animation: slide 12s steps(4) infinite; 
-}
-
-.about {  
-  width: 35%;
-  height: 100%;
-  left: 50%;
-  position: absolute;
-  margin-top: 8.8%;
-  pointer-events: none;
-}
-
-.experience {  
-  width: 35%;
-  height: 100%;
-  left: 50%;
-  position: absolute;
-  margin-top: 23.8%;
-  pointer-events: none;
+    list-style: none;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite; 
 }
 
 @keyframes slide {
-  100% {
-    top: -200px;
-  }
+    100% {
+        top: -200px;
+    }
 }
 
 .dynamic-txts li span {
-  position: relative;
-  margin: 5px 5px;
-  line-height: 50px;
+    position: relative;
+    margin: 5px 5px;
+    line-height: 50px;
 }
 
 .dynamic-txts li span::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgb(26, 26, 26);
-  border-left: 2px solid #ffffff;
-  animation: typing 3s steps(13) infinite;
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(26, 26, 26);
+    border-left: 2px solid #ffffff;
+    animation: typing 3s steps(13) infinite;
 }
 
 @keyframes typing {
-    10% {
-        border-left: 2px solid #ffffff00;
-    }
-    20% {
-        border-left: 2px solid #ffffff;
-    }
-    30% {
-        border-left: 2px solid #ffffff00;
-    }
+    10% { border-left: 2px solid transparent; }
+    20% { border-left: 2px solid #ffffff; }
+    30% { border-left: 2px solid transparent; }
     40%, 60% {
         left: calc(100% + 0px);
-        
         border-left: 2px solid #ffffff;
     }
-    50% {
-        border-left: 2px solid #ffffff00;
-    }
-    60% {
-        border-left: 2px solid #ffffff;
-    }
-    70% {
-        border-left: 2px solid #ffffff00;
-    }
-    80% {
-        border-left: 2px solid #ffffff;
-    }
-    90% {
-        border-left: 2px solid #ffffff00;
-    }
+    50% { border-left: 2px solid transparent; }
+    60% { border-left: 2px solid #ffffff; }
+    70% { border-left: 2px solid transparent; }
+    80% { border-left: 2px solid #ffffff; }
+    90% { border-left: 2px solid transparent; }
     100% {
         left: 0px;
         border-left: 2px solid #ffffff;
-  }
+    }
 }
 
-@keyframes cursor {
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffffff;
 }
 
-body {
-  cursor: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/svgs/solid/mouse-pointer.svg') 16 16, auto;
+p {
+    font-size: 1rem;
+    color: gray;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 600px;
+}
+
+.about, .experience {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.about h2, .experience h2 {
+    text-align: left;
+}
+
+.about p, .experience p {
+    text-align: left;
 }
