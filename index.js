@@ -1,3 +1,18 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const projectTitles = document.querySelectorAll('.project-title');
+
+    projectTitles.forEach(title => {
+        title.addEventListener('click', function() {
+            const details = this.nextElementSibling;
+            if (details.style.maxHeight){
+              details.style.maxHeight = null;
+            } else {
+              details.style.maxHeight = details.scrollHeight + "px";
+            }
+        });
+    });
+});
+
 function init(){ // this is for teh smooth scrolling thing
 	new SmoothScroll(document,120,12)
 }
@@ -65,4 +80,23 @@ function SmoothScroll(target, speed, smooth) {
 			}
 		);
 	}()
+
+const MouseGlow = document.getElementById("cursor-glow");
+
+window.addEventListener("mousemove", (event) => {
+    MouseGlow.animate({left: `${event.clientX}px`, top: `${event.clientY}px`}, {duration: 40500, fill: "forwards"});
+});
+
+function toggleDetails(element) {
+	var projectDetails = element.nextElementSibling; // Get the next element (project-details)
+	if (projectDetails.style.maxHeight){
+	  projectDetails.style.maxHeight = null;
+	} else {
+	  projectDetails.style.maxHeight = projectDetails.scrollHeight + "px";
+	}
+  }
+  
 }
+
+
+

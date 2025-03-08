@@ -9,6 +9,7 @@
 </head>
 <body onload="init()">
     <div class="wrapper">
+        
         <ul class="dynamic-txts">
             <li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi, I'm Marin.</span></li>
             <li><span>Hallo, ich bin Marin.</span></li>
@@ -16,6 +17,7 @@
             <li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;嗨，我是马林</span></li>            
         </ul>       
     </div>
+    
     <h2 style="">Aspiring Software Developer</h2>
     <p style="">I like programming, photography <br> and a lot of other random shit lol.</p>
 
@@ -25,8 +27,7 @@
             who introduced me to programming. Initially started by making a shit Discord bot with Node.JS, then went to Java and back end devlopment, and lastly
             learned some web development.
             </p> <br/> <p>
-            As for photography, it's a nice hobby and I enjoy doing some photography from time to time,
-             especially when visiting new places. I also like gaming and mostly play
+            As for photography, it's a nice hobby and I enjoy doing some photography from time to time, especially when visiting new places. I also like gaming and mostly play
            competitive games, but I also like story and cozy games.</p>
     </div>
 
@@ -38,9 +39,41 @@
             Though, I'm still trying to learn more and so currently I'm learning JavaScript, already made a couple of projects using it, check them out on my github :D</p>
     </div>
 
-    <div class="projects">
-        <h2 style="margin: 0% 0 1% 0%;">Projects</h2>
-        <p>Over the years I've made quite a lot of projects, a lot of them are either shit/not worth putting on here. BUT, recently, after like 6 months I started to get back into programming, started making some cool projects that sparked my interests or that I think are pretty good. Here they are:</p>
-    </div>
+
+        <div class="projects">
+            <h2 style="margin: 0% 0 1% 0%;">Projects</h2>
+            <p>Over the years I've made quite a lot of projects, a lot of them are either shit/not worth putting on here. BUT, recently, after like 6 months I started to get back into programming, started making some cool projects that sparked my interests or that I think are pretty good. Here they are:</p>
+    
+            
+        <div class="project">
+            <button class="project-title" onclick="toggleDetails(this)">CS2 Case Odds Simulation<span style="font-size: 1rem;
+                color: gray;
+                line-height: 1.5;
+                text-align: center;
+                max-width: 600px;
+                font-weight:400;"> - simulates a specified no. of cases</span></button>
+            <div class="project-details">
+                <p>Simulates a user-inputted number of cases opened and says the amount of each rarity you got, how much money it costed, an approximate total value of those items and a profit/loss stat based on the approximate total value and money spent. Made in JS, HTML and CSS.</p>
+                <a href="https://github.com/marindeveloper/Counter-Strike-Case-Simulation" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+        
+        <div class="project">
+            <button class="project-title" onclick="toggleDetails(this)">Trello-like ToDo App<span style="font-size: 1rem;
+                color: gray;
+                line-height: 1.5;
+                text-align: center;
+                max-width: 600px;
+                font-weight:400;"> - a simple todo app with task groups</span></button>
+            <div class="project-details">
+                <p>A simple, drag-and-drop task management app inspired by Trello. Organize your tasks into groups (To Do, In Progress, Done) and customize the app's appearance with a color picker. Made in JS, HTML and CSS.</p>
+                <a href="https://github.com/marindeveloper/ToDo-App" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    
+        </div>
+    
+    
+    
 </body>
 </html>

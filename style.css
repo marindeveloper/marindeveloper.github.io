@@ -111,3 +111,59 @@ p {
 .about p, .experience p, .projects p {
     text-align: left;
 }
+
+.project {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.project-title {
+  background-color: transparent;
+  color: #fff;
+  padding: 0px;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  position: relative;
+  display: inline-block; 
+  width: auto;
+}
+
+.project-title::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -1px;
+  left: 0;
+  background-color: gray;
+  transition: width 0.3s ease;
+}
+
+.project-title:hover::after {
+  width: 100%;
+}
+
+.project-details {
+    padding: 0 10px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+    color: gray; 
+    font-size: 1rem; 
+}
+
+.project-details p {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.project-details a {
+    color: #007bff;
+    text-decoration: none;
+}
+
