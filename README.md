@@ -3,3 +3,7 @@ Yep, you read that right, just my personal website. Nothing too crazy, just a pl
 
 Check it out at: [marindeveloper.github.io/](https://marindeveloper.github.io/) <br/>
 Also check out my other projects on github (yes this is a self promo now)
+
+# Screenshots
+
+*coming soon, gotta fully finish the website first lol*
