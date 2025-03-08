@@ -81,14 +81,8 @@ function SmoothScroll(target, speed, smooth) {
 		);
 	}()
 
-const MouseGlow = document.getElementById("cursor-glow");
-
-window.addEventListener("mousemove", (event) => {
-    MouseGlow.animate({left: `${event.clientX}px`, top: `${event.clientY}px`}, {duration: 40500, fill: "forwards"});
-});
-
 function toggleDetails(element) {
-	var projectDetails = element.nextElementSibling; // Get the next element (project-details)
+	var projectDetails = element.nextElementSibling; // Get the next element (project details)
 	if (projectDetails.style.maxHeight){
 	  projectDetails.style.maxHeight = null;
 	} else {
