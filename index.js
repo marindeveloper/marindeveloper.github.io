@@ -1,4 +1,4 @@
-function init(){
+function init(){ // this is for teh smooth scrolling thing
 	new SmoothScroll(document,120,12)
 }
 

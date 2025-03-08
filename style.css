@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     min-height: 100vh;
-    background: rgb(26, 26, 26);
+    background: #1e1e1e;
     color: #ffffff;
     padding: 40px 20px;
 }
@@ -57,7 +57,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgb(26, 26, 26);
+    background: #1e1e1e;
     border-left: 2px solid #ffffff;
     animation: typing 3s steps(13) infinite;
 }
@@ -97,17 +97,17 @@ p {
     max-width: 600px;
 }
 
-.about, .experience {
+.about, .experience, .projects {
     width: 100%;
     max-width: 600px;
     margin: 20px auto;
     text-align: left;
 }
 
-.about h2, .experience h2 {
+.about h2, .experience h2, .projects h2 {
     text-align: left;
 }
 
-.about p, .experience p {
+.about p, .experience p, .projects p {
     text-align: left;
 }
