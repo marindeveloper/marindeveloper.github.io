@@ -182,3 +182,29 @@ p {
         height: auto;
     }
 }
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  .social-icons a:last-child {
+      margin-right: 0;
+  }
+  
+  .social-icons i {
+    font-size: 1.5em;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons i:hover {
+    color: gray;
+  }
+  
