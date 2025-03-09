@@ -168,3 +168,17 @@ p {
     text-decoration: none;
 }
 
+.github-chart {
+    width: 100%; 
+    max-width: 600px; 
+    height: 110px; 
+    margin: 20px 0; 
+    display: block; 
+}
+
+@media (max-width: 768px) { /* still looks pretty bad on mobile but oh well, better than fully broken lol */
+    .github-chart {
+        width: 100%; 
+        height: auto;
+    }
+}
