@@ -5,5 +5,14 @@ Check it out at: [marindeveloper.github.io/](https://marindeveloper.github.io/) 
 Also check out my other projects on github (yes this is a self promo now)
 
 # Screenshots
+![Group 1 (1)](https://github.com/user-attachments/assets/3c13908a-6c54-4b12-8637-fbc17bdd8199)
+*Main view of the website on a desktop view/resolution*
+<br />
+<br />
+<br />
 
-*coming soon, gotta fully finish the website first lol*
+![iconic app](https://github.com/user-attachments/assets/78519d09-72b4-4681-87c4-656c323d7685)
+<br />
+*Main view of the website on a phone browser*
+
+
