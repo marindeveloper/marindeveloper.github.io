@@ -148,7 +148,6 @@ p {
   width: 100%;
 }
 
-
 .project-details {
     padding: 0 10px;
     overflow: hidden;
@@ -164,8 +163,17 @@ p {
 }
 
 .project-details a {
-    color: #007bff;
+    color: #2dba4e;
     text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+.project-details a:hover {
+    color: #218137;
+}
+
+a:hover {
+    color: #218137;
 }
 
 .github-chart {
