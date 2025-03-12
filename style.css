@@ -172,6 +172,16 @@ p {
     color: #218137;
 }
 
+.experience a {
+    color: #2dba4e;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+.experience a:hover {
+    color: #218137;
+}
+
 .github-chart {
     width: 100%; 
     max-width: 600px; 
