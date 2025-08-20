@@ -12,6 +12,6 @@ Also check out my other projects on github (yes this is a self promo now lol)
 <br />
 <img src="https://github.com/user-attachments/assets/78519d09-72b4-4681-87c4-656c323d7685" width="200"/>
 <br />
-*Main view of the website on a phone browser* 
+*Main view of the website on a phone browser*  
 
 
